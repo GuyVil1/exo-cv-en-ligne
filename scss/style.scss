@@ -1,0 +1,161 @@
+// Je récupére mes partial créé
+
+@import "reset";
+@import "base";
+@import "classes";
+
+.grid-container{
+    display: grid;
+    // utilisation poussée du grid
+    grid:
+        "picture header" auto
+        "aside main" 1fr
+        / 35rem auto;
+    min-height: 100vh;
+}
+
+header{
+    grid-area: header;
+    background: linear-gradient(to right, var(--primary), var(--light));
+    padding: 8rem 5rem;
+    text-align: center;
+    color: white;
+    // centrage précis du texte
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    h1{
+        font-size: 6rem;
+        line-height: 3rem;
+        font-weight: 300;
+        letter-spacing: 3rem;
+    }
+    p{
+        letter-spacing: 0.5rem;
+    }
+}
+
+.picture{
+    grid-area: picture;
+    background: var(--background);
+    padding: 4rem;
+    border-right: 1px solid #ddd;
+    img{
+        border-radius: 50%;
+    }
+}
+
+aside{
+    grid-area: aside;
+    background: var(--background);
+    border-right: 1px solid #ddd;
+    padding: 5rem;
+    .block{
+        margin-bottom: 5rem;
+        h3{
+            margin-bottom: 0;
+            font-size: 1.4rem;
+        }
+        p{
+            margin: 0 0 2rem 0;
+            font-style: italic;
+        }
+    }
+    .bar-skill{
+        margin: 2rem 0;
+        height: 0.5rem;
+        background: var(--hint);
+        position: relative;//je met en relative pour pouvoir venir supperposer la bar-skill-content
+        .bar-skill-content-100{
+            position: absolute;
+            height: 0.5rem;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: var(--primary);
+        }
+        .bar-skill-dot-100{
+            position: absolute;
+            height: 1rem;
+            width: 1rem;
+            background: var(--dark);
+            left: calc(100% - 0.5rem);
+            top: -0.25rem;
+            transform: rotate(45deg);
+        }
+        .bar-skill-content-80{
+            position: absolute;
+            height: 0.5rem;
+            top: 0;
+            left: 0;
+            width: 80%;
+            background: var(--primary);
+        }
+        .bar-skill-dot-80{
+            position: absolute;
+            height: 1rem;
+            width: 1rem;
+            background: var(--dark);
+            left: calc(80% - 0.5rem);
+            top: -0.25rem;
+            transform: rotate(45deg);
+        }
+        .bar-skill-content-70{
+            position: absolute;
+            height: 0.5rem;
+            top: 0;
+            left: 0;
+            width: 70%;
+            background: var(--primary);
+        }
+        .bar-skill-dot-70{
+            position: absolute;
+            height: 1rem;
+            width: 1rem;
+            background: var(--dark);
+            left: calc(70% - 0.5rem);
+            top: -0.25rem;
+            transform: rotate(45deg);
+        }
+        .bar-skill-content-60{
+            position: absolute;
+            height: 0.5rem;
+            top: 0;
+            left: 0;
+            width: 60%;
+            background: var(--primary);
+        }
+        .bar-skill-dot-60{
+            position: absolute;
+            height: 1rem;
+            width: 1rem;
+            background: var(--dark);
+            left: calc(60% - 0.5rem);
+            top: -0.25rem;
+            transform: rotate(45deg);
+        }
+    }
+            .stars-container{
+                display: flex;
+                margin: 2rem 0 3rem 0;
+                color: var(--hint);
+                i{
+                    font-size: 2rem;
+                    margin: 0 1rem;
+                }
+            }
+}
+
+main{
+    grid-area: main;
+    padding: 5rem;
+    h2{
+        margin-bottom: 4rem;
+    }
+    p{
+        letter-spacing: 0.1rem;
+        line-height: 3rem;
+        margin-bottom: 5rem;
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAA,CAED,KAAK,CAAA,uBAAC,CAEN,OAAO,CAAA,QAAC,CACR,SAAS,CAAA,QAAC,CACV,MAAM,CAAA,QAAC,CACP,MAAM,CAAA,KAAC,CACP,YAAY,CAAA,QAAC,CACb,MAAM,CAAA,KAAC,CACV",
+    "sources": [
+        "../../scss/variable.scss"
+    ],
+    "names": [],
+    "file": "variable.min.css"
+}
