@@ -6,7 +6,7 @@ body { font-family: var(--ff1); color: var(--text); font-size: 1.6rem; }
 
 p { margin: 1rem 0; }
 
-h1, h2, h3, h4, h5, h6 { margin: 0; }
+h1, h2, h3, h4, h5, h6 { margin: 0; text-transform: uppercase; }
 
 ul { list-style: none; }
 
@@ -131,6 +131,8 @@ main p { letter-spacing: 0.1rem; line-height: 3rem; }
 .experience .content p { margin: 0; }
 
 .experience .content ul { list-style: circle; padding-left: 4rem; margin: 2rem 0; }
+
+.experience .content h3 { text-transform: uppercase; }
 
 footer { grid-area: footer; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; text-align: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: white; padding: 5rem; background: var(--text); }
 
