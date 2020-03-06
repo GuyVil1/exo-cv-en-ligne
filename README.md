@@ -2,4 +2,4 @@
 
 <p>Exercice récapitulatif HTML/SCSS</p>
 
-<p><a href='https://guyvil1.github.io/exo-cv-en-ligne/'>Lien du projet</a></p>
+<p><a href='https://focused-bhaskara-5690b6.netlify.com/'>Lien du projet</a></p>
