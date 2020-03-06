@@ -48,9 +48,13 @@ header { grid-area: header; background: -webkit-gradient(linear, left top, right
 
 @media (max-width: 480px) { header { padding: 5rem 2rem; } }
 
+@media (max-width: 767px) { header { padding: 5rem 2rem; } }
+
 header h1 { font-size: 6rem; line-height: 3rem; font-weight: 300; letter-spacing: 3rem; margin-bottom: 2rem; }
 
 @media (max-width: 480px) { header h1 { font-size: 4rem; line-height: 6rem; } }
+
+@media (max-width: 767px) { header h1 { font-size: 4rem; line-height: 6rem; } }
 
 header p { letter-spacing: 0.5rem; }
 
@@ -59,6 +63,8 @@ header span { display: inline-block; -webkit-animation: bounce 2s; animation: bo
 .picture { grid-area: picture; background: var(--background); padding: 4rem; border-right: 1px solid var(--border); }
 
 .picture img { border-radius: 50%; }
+
+@media (max-width: 767px) { .picture img { width: 50%; display: block; margin: auto; } }
 
 aside { grid-area: aside; background: var(--background); border-right: 1px solidvar(--border); padding: 5rem; }
 
@@ -106,6 +112,8 @@ main { grid-area: main; padding: 5rem; }
 
 @media (max-width: 480px) { main { padding: 2rem; } }
 
+@media (max-width: 767px) { main { padding: 2rem; } }
+
 main h2 { margin-bottom: 4rem; }
 
 main p { letter-spacing: 0.1rem; line-height: 3rem; }
@@ -128,6 +136,8 @@ footer { grid-area: footer; display: -webkit-box; display: -ms-flexbox; display:
 
 @media (max-width: 480px) { footer { padding: 5rem 1.5rem; } }
 
+@media (max-width: 767px) { footer { padding: 5rem 1.5rem; } }
+
 footer h2 { margin-bottom: 3rem; }
 
 footer form { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
@@ -143,6 +153,8 @@ footer form button .postfix { background: -webkit-gradient(linear, left top, rig
 footer form input { outline: 0; border: 0; min-width: 400px; padding: 1rem 2rem; line-height: 2rem; }
 
 @media (max-width: 480px) { footer form input { min-width: 70%; } }
+
+@media (max-width: 767px) { footer form input { min-width: 70%; } }
 
 footer form input::-webkit-input-placeholder { color: var(--text); }
 

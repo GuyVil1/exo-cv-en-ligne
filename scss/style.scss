@@ -49,6 +49,9 @@ header{
     @include xs{
         padding: 5rem 2rem;
     }
+    @include sm{
+        padding: 5rem 2rem;
+    }
     h1{
         font-size: 6rem;
         line-height: 3rem;
@@ -56,6 +59,10 @@ header{
         letter-spacing: 3rem;
         margin-bottom: 2rem;
         @include xs{
+            font-size: 4rem;
+            line-height: 6rem;
+        }
+        @include sm{
             font-size: 4rem;
             line-height: 6rem;
         }
@@ -76,6 +83,11 @@ header{
     border-right: 1px solid var(--border);
     img{
         border-radius: 50%;
+        @include sm{
+            width: 50%;
+            display: block;
+            margin: auto;
+        }
     }
 }
 
@@ -215,6 +227,9 @@ main{
     @include xs{
         padding: 2rem;
     }
+    @include sm{
+        padding: 2rem;
+    }
     h2{
         margin-bottom: 4rem;
     }
@@ -263,6 +278,9 @@ footer{
     @include xs{
         padding: 5rem 1.5rem;
     }
+    @include sm{
+        padding: 5rem 1.5rem;
+    }
     background: var(--text);
     h2{
         margin-bottom: 3rem;
@@ -302,6 +320,9 @@ footer{
             padding: 1rem 2rem;
             line-height: 2rem;
             @include xs{
+                min-width: 70%;
+            }
+            @include sm{
                 min-width: 70%;
             }
 
