@@ -1,0 +1,12 @@
+@-webkit-keyframes bounce { 0% { -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
+  10% { -webkit-transform: rotate(-35deg); transform: rotate(-35deg); }
+  70% { -webkit-transform: rotate(20deg); transform: rotate(20deg); }
+  80% { -webkit-transform: rotate(-10deg); transform: rotate(-10deg); }
+  90% { -webkit-transform: rotate(5deg); transform: rotate(5deg); }
+  100% { -webkit-transform: rotate(0deg); transform: rotate(0deg); } } @keyframes bounce { 0% { -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
+  10% { -webkit-transform: rotate(-35deg); transform: rotate(-35deg); }
+  70% { -webkit-transform: rotate(20deg); transform: rotate(20deg); }
+  80% { -webkit-transform: rotate(-10deg); transform: rotate(-10deg); }
+  90% { -webkit-transform: rotate(5deg); transform: rotate(5deg); }
+  100% { -webkit-transform: rotate(0deg); transform: rotate(0deg); } }
+/*# sourceMappingURL=animation.css.map */
