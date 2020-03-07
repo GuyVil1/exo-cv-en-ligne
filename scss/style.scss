@@ -94,7 +94,7 @@ header{
 aside{
     grid-area: aside;
     background: var(--background);
-    border-right: 1px solidvar(--border);
+    border-right: 1px solid var(--border);
     padding: 5rem;
     .block{
         margin-bottom: 5rem;
@@ -323,10 +323,10 @@ footer{
             padding: 1rem 2rem;
             line-height: 2rem;
             @include xs{
-                min-width: 70%;
+                min-width: 65%;
             }
             @include sm{
-                min-width: 70%;
+                min-width: 65%;
             }
 
             &::placeholder{

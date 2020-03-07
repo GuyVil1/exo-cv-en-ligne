@@ -154,9 +154,9 @@ footer form button .postfix { background: -webkit-gradient(linear, left top, rig
 
 footer form input { outline: 0; border: 0; min-width: 400px; padding: 1rem 2rem; line-height: 2rem; }
 
-@media (max-width: 480px) { footer form input { min-width: 70%; } }
+@media (max-width: 480px) { footer form input { min-width: 65%; } }
 
-@media (max-width: 767px) { footer form input { min-width: 70%; } }
+@media (max-width: 767px) { footer form input { min-width: 65%; } }
 
 footer form input::-webkit-input-placeholder { color: var(--text); }
 
